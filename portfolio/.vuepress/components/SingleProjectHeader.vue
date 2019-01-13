@@ -16,6 +16,12 @@
       <span class="value categories" v-for="category in categories" v-text="category" />
     </div>
 
+       <div class="column" v-if="githublink">
+      <Label class="label">Github link</Label>
+      <span class="value"><a :href="githublink" target="_blank">Here</a></span>
+
+    </div>
+
   </div>
 </template>
 
@@ -33,6 +39,10 @@
       categories: {
         type: Array,
         required: true
+      },
+      githublink: {
+        type: String,
+        required: false
       }
     }
   }
@@ -42,14 +52,15 @@
 
   .header {
     display: flex;
-    padding: 2rem 0;
+    flex-wrap: wrap;
     width: 100%;
     max-width: 800px;
     margin: 0 auto 3rem auto;
   }
 
   .column {
-    flex: 0 0 33.33%;
+    padding: 1rem;
+    flex-grow: 1;
   }
 
   .label {

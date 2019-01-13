@@ -6,6 +6,7 @@ year: 2018
 categories:
 - Game
 description: Showcase project
+githublink: "https://github.com/aboutandre/four-in-a-row-game"
 
 ---
 # Four in a row project

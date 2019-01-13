@@ -111,7 +111,7 @@ export default {
   justify-content: space-between;
   height: 6rem;
   padding: 5vw;
-  position: fixed;
+  position: relative;
   font-size: 0.8rem;
   font-weight: 600;
   z-index: 10;
