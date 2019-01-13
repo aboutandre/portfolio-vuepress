@@ -1,8 +1,8 @@
 {
-    "title": "Acme",
-    "description": "Creative Agency",
+  "title": "André Oliveira",
+  "description": "Frontend Developer",
     "logo": "/upload/logo.svg",
-    "footer": "Ⓒ Acme",
+    "footer": "Ⓒ André Oliveira",
     "favicon": "favicon-32x32.png",
     "navigation": [
       {
@@ -12,8 +12,14 @@
         "external": false
       },
       {
-        "text": "Instagram",
-        "link": "https://www.instagram.com/its.nwa",
+        "text": "Design",
+        "link": "/design/",
+        "position": "left",
+        "external": false
+      },
+      {
+        "text": "Github",
+        "link": "https://github.com/aboutandre",
         "position": "left",
         "external": true
       },

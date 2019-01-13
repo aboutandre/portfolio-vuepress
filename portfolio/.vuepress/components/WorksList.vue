@@ -34,15 +34,26 @@
 
 <style scoped>
 
+.project-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
   .post {
     position: relative;
     width: 100%;
-    height: 70vh;
+    height: 35vh;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     margin-bottom: 5vw;
     cursor: pointer;
+  }
+
+  @media screen and (min-width: 620px) {
+    .post {
+      width: 50%;
+    }
   }
 
   .info {

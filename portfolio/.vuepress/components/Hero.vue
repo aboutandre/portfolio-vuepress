@@ -22,7 +22,7 @@ export default {
     letter-spacing: 0.1rem;
     width: 800px;
     max-width: 100%;
-    margin: 18vw auto 7vw auto;
+    margin: 0 auto 7vw auto;
   }
 
   @media screen and (min-width: 600px) {
