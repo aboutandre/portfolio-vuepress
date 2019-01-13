@@ -14,6 +14,7 @@
           :title="$page.frontmatter.title"
           :year="$page.frontmatter.year.toString()"
           :categories="$page.frontmatter.categories"
+          :githublink="$page.frontmatter.githublink"
         />
         <Content/>
       </div>
@@ -98,7 +99,7 @@ export default {
 }
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+  font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
     "Noto Sans", "Ubuntu", "Droid Sans", "Helvetica Neue", sans-serif;
   font-size: 16px;
   background: #fff;
@@ -113,7 +114,13 @@ img {
 }
 
 .container {
-  padding: 80px 5vw 0;
+  padding: 40px 5vw 0;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 .journal-list,
