@@ -31,9 +31,9 @@
       },
       {
         "text": "Say hi!",
-        "link": "/contact/",
+        "link": "mailto:hello@aboutandre.com",
         "position": "right",
-        "external": false
+        "external": true
       }
     ]
   }
