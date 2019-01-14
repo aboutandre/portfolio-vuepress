@@ -24,6 +24,12 @@
         <Content/>
       </div>
 
+      <!-- Contact -->
+      <div v-if="$route.path === '/contact/'" class="contact">
+        <Contact
+        :contactTitle="$page.frontmatter.title" />
+      </div>
+
       <!-- Single journal -->
       <div v-if="isSingleJournal" class="single-journal">
         <Content/>
@@ -48,6 +54,13 @@ export default {
       const journalRoute = "/journal/";
       const path = this.$route.path;
       if (path.includes("journal") && path.length >= journalRoute.length + 1) {
+        return true;
+      }
+    },
+    contact() {
+      const contactRoute = "/contact/";
+      const path = this.$route.path;
+      if (path.includes("contact") && path.length >= contactRoute.length + 1) {
         return true;
       }
     }
@@ -99,8 +112,8 @@ export default {
 }
 
 body {
-  font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
-    "Noto Sans", "Ubuntu", "Droid Sans", "Helvetica Neue", sans-serif;
+  font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    "Roboto", "Noto Sans", "Ubuntu", "Droid Sans", "Helvetica Neue", sans-serif;
   font-size: 16px;
   background: #fff;
   color: var(--color-black);
@@ -124,10 +137,15 @@ img {
 }
 
 .journal-list,
-.single-journal {
+.single-journal,
+.contact {
   width: 800px;
   max-width: 100%;
   margin: 0 auto;
+}
+.contact {
+  display: flex;
+  justify-content: center;
 }
 
 h1,

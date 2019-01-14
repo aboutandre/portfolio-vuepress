@@ -2,7 +2,7 @@
 new_page_extension: md
 auto_deploy: true
 admin_path: "/admin"
-webhook_url: 
+webhook_url:
 sections:
 - type: document
   path: portfolio/index.md
@@ -23,6 +23,11 @@ sections:
   match: "**/[!index]*"
   templates:
   - journal
+- type: document
+  path: contact/index.md
+  label: Contact
+  templates:
+  - settings
 - type: heading
   label: Data
 - type: document
