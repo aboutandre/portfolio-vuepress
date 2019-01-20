@@ -120,10 +120,11 @@ body {
 }
 
 img {
+  display: block;
   width: 100%;
-  max-width: 100%;
+  max-width: 960px;
   line-height: 0;
-  margin: 2rem 0;
+  margin: 2rem auto;
 }
 
 .container {

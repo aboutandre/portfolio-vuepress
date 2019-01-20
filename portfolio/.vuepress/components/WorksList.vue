@@ -51,8 +51,12 @@
   }
 
   @media screen and (min-width: 620px) {
+    .project-list {
+      margin: -1.2rem;
+    }
     .post {
-      width: 50%;
+      margin: 1.2rem;
+      width: calc(50% - 2.4rem);
     }
   }
 
@@ -62,11 +66,12 @@
     top: 2rem;
     padding: 0.5rem 1rem;
     background: rgba(255,255,255, 1);
+    box-shadow: 0px 0 4px rgba(51, 51, 51, 0.3);
     max-width: 400px;
   }
 
   .info h2 {
-    display: inline-block;
+    display: block;
     width: auto;
     font-size: 0.8rem;
     font-weight: 700;
@@ -77,7 +82,6 @@
     display: inline-block;
     width: auto;
     margin: 0;
-    margin-left: 0.5rem;
     font-size: 0.8rem;
   }
 
