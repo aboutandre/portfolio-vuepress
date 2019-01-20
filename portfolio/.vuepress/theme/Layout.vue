@@ -122,7 +122,7 @@ body {
 img {
   display: block;
   width: 100%;
-  max-width: 960px;
+  max-width: 860px;
   line-height: 0;
   margin: 2rem auto;
 }
