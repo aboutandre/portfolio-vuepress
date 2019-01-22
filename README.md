@@ -1,10 +1,6 @@
-<p align="center">
-  <img src="portfolio/.vuepress/public/upload/logo.svg" height="64">
-  <h3 align="center">VuePress awesome portfolio</h3>
-  <p align="center">VuePress site with portfolio and blogging pages<br>ready to deploy, and configured for Forestry (Content Management)<p>
-</p>
-
-<img src="https://file-gnmccqwnxv.now.sh/" style="-webkit-user-select: none; display: block; margin: auto; cursor: zoom-in;" width="100%" height="auto">
+# Vuepress portfolio repo
+This repo is a fork from [forestryio](https://github.com/forestryio/portfolio-vuepress).
+I used their boilerplate.
 
 ## Development
 
@@ -38,7 +34,7 @@ That's it, now your site gets deployed automatically on `git push`
 
 ## Forestry (Content Management)
 
-This project has been pre-configured to work with Forestry, just import your repository ✨  
+This project has been pre-configured to work with Forestry, just import your repository ✨
 Any changes you make will be commited back to the repo, and deployed if you're using Netlify.
 
 [![Import this project into Forestry](https://assets.forestry.io/import-to-forestryK.svg)](https://app.forestry.io/quick-start?repo=forestryio/portfolio-vuepress&provider=github&engine=vuepress)
