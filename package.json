@@ -6,6 +6,6 @@
   "author": "Nichlas W. Andersen",
   "license": "MIT",
   "dependencies": {
-    "vuepress": "^0.14.1"
+    "vuepress": "^1.9.7"
   }
 }
